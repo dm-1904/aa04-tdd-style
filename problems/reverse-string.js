@@ -1,3 +1,11 @@
-module.exports = function reverseString(string) {
-  // Your code here 
+
+function reverseString(string) {
+  //if(typeof string !==  'string') throw new TypeError
+  let ans = string.split('').reverse().join('')
+  return ans
 };
+
+
+
+
+module.exports = reverseString
